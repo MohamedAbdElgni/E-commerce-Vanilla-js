@@ -1,0 +1,29 @@
+This is a simple E-commerce website using Vanilla JavaScript and Local Storage.
+
+- Features
+    -Guest
+        - View Products
+        -Login
+        -Register
+    -User
+        - View Products
+        - Add to Cart
+        - Remove from Cart
+        - View Cart
+        - Checkout
+        - Logout
+    -Admin
+        - View Products
+        - Add Product
+        - Remove Product
+        - Update Product
+        - View Orders
+        - Logout
+
+- Technologies
+    - HTML
+    - CSS
+    - JavaScript
+    - Local Storage
+
+
