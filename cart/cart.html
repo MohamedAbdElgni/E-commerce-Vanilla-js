@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link rel="stylesheet" href="../style.css" />
+	<title>Cart</title>
+</head>
+
+<body onload="renderCart()">
+	<!-- header start -->
+	<header>
+		<div class="container">
+			<nav>
+				<div class="logo">
+					<span id="Target" class="title"> <a href="../index.html">Target</a></span>
+					<span class="icon"><i class="material-icons" >shopping_cart</i></span>
+				</div>
+				<div class="nav-link">
+					<ul>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- main start -->
+	<main class="container">
+		<center><h2>Cart</h2></center>
+		<div class="flex-container">
+			<div class="cart-items" id="cart-container" >
+
+			</div>
+		</div>
+		<div class="bottom-cta">
+			<span class="btn cta"><a href="../index.html">Shop More</a></span>
+			<span class="btn cta"><a href="/checkout/checkout.html">Proceed to checkout</a></span>
+		</div>
+	</main>
+	<!-- main end -->
+
+	<!-- footer start -->
+	<footer>
+		<div class="container">
+			<div class="footer-container">
+				<div class="foot-col-social">
+					<div class="social-text">
+						<p>Follow us on:</p>
+					</div>
+					<div class="social">
+						<a href="https://www.facebook.com/profile.php?id=100038113880156" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://twitter.com/pepsi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+						<a href="https://www.instagram.com/mahmoud_badr100/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="foot-col-text">
+					<p>Call us toll free on: +91 99-9999-9999</p>
+				</div>
+				<div class="foot-col-newsletter">
+					<div class="newsletter-text">
+						<p>For offers and newsletter:</p>
+					</div>
+					<div class="newsletter-input">
+						<input type="email" class="foot-input" placeholder="Email" />
+					</div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="footer-text">
+				<p>
+					Design & developed by Mahmoud Badry | Copyright 2023
+					<a href="">Privacy Policy</a> | <a href="">Return Policy</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+	<script src="/cart/cart.js"></script>
+</body>
+
+</html>
